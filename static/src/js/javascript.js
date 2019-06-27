@@ -1,0 +1,4 @@
+openerp.javascript= function (instance) {
+    
+
+};

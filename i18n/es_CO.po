@@ -1,0 +1,1174 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* doctor_pediatrics
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130608-231017\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-21 22:19+0000\n"
+"PO-Revision-Date: 2019-06-21 22:19+0000\n"
+"Last-Translator: DracoSoft \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,patient_sex:0
+msgid "Male"
+msgstr "Masculino"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,patient_sex:0
+msgid "Female"
+msgstr "Femenino"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,state:0
+msgid "Open"
+msgstr "Abierta"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,state:0
+msgid "Closed"
+msgstr "Cerrada"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,state:0
+msgid "Open"
+msgstr "Abierta"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,age_unit:0
+msgid "Years"
+msgstr "Años"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,age_unit:0
+msgid "Months"
+msgstr "Meses"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,age_unit:0
+msgid "Days"
+msgstr "Días"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,age_unit:0
+msgid "Unit of measure of age"
+msgstr "Unidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,conduct:0
+#: view:doctor.attentions.pediatrics:0
+msgid "Conduct"
+msgstr "Conducta"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Diagnosis"
+msgstr "Diagnósticos"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Patient Conduct"
+msgstr "Conducta del Paciente"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Medical Analysis"
+msgstr "Comentarios del Médico Tratante"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,age_attention:0
+msgid "Current age"
+msgstr "Edad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,speciality:0
+msgid "Speciality"
+msgstr "Especialidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,therapeutic_results:0
+#: view:doctor.attentions.pediatrics:0
+msgid "Therapeutical Results"
+msgstr "Resultados Terapéuticos"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Therapeutic Procedures"
+msgstr "Procedimientos Terapéuticos"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,actual_disease:0
+msgid "Actual Disease"
+msgstr "Padecimiento Actual"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,exams:0
+#: view:doctor.attentions.pediatrics:0
+msgid "Exams"
+msgstr "Exámenes"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Lab Exams, Cabinet, and Others"
+msgstr "Exám. de Laboratorio, Gabinete y Otros"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Previous and current exams"
+msgstr "Exámenes previos y actuales"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,patient_birth_date:0
+msgid "Date of Birth"
+msgstr "Fecha Nacimiento"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,father_name:0
+msgid "Father Name"
+msgstr "Nombre Papá"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,mother_name:0
+msgid "Mother Name"
+msgstr "Nombre mamá"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,father_age:0
+msgid "Father Age"
+msgstr "Edad Papá"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,mother_age:0
+msgid "Mother Age"
+msgstr "Edad mamá"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,patient_sex:0
+msgid "Sex"
+msgstr "Género"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,patient_beliefs:0
+msgid "Beliefs"
+msgstr "Creencias"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,patient_beliefs:0
+msgid "Beliefs"
+msgstr "Creencias"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Patient Details"
+msgstr "Información Paciente"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Exam"
+msgstr "Exámen Físico"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Family background"
+msgstr "Antec. Familiares"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Perinatal background"
+msgstr "Antec. Perinatales"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Immunization"
+msgstr "Inmunización"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Psychomotor development"
+msgstr "Desarrollo Psicomotor"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Surgical background"
+msgstr "Antec. Médico/Quirúrgicos"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Neuropsychological background"
+msgstr "Antec. Neuropsicológicos"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Functional assessment"
+msgstr "Evaluación Funcional"
+
+#. module: doctor
+#: view:doctor.attentions.pediatrics:0
+msgid "Nutritional Background"
+msgstr "Antec. Nutricionales"
+
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,patient_id:0
+msgid "Patient"
+msgstr "Paciente"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,analysis:0
+msgid "Analysis"
+msgstr "Comentarios"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Vital signs"
+msgstr "Signos Vitales"
+
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Exam"
+msgstr "Exámen Físico"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Siblings"
+msgstr "Hermanos"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,heart_rate:0
+msgid "Heart rate"
+msgstr "Frec. Cardiaca"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,heart_rate:0
+#: view:doctor.attentions.pediatrics:0
+msgid "Heart Rate"
+msgstr "Frec. Cardiaca"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,respiratory_rate:0
+#: view:doctor.attentions.pediatrics:0
+msgid "Respiratory Rate"
+msgstr "Frec. Respiratoria"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+#: field:doctor.attentions.pediatrics,temperature:0
+msgid "Temperature"
+msgstr "Temperatura"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+#: field:doctor.attentions.pediatrics,reason_consultation:0
+msgid "Reason of Consultation"
+msgstr "Motivo de Consulta"
+
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Arterial Tension"
+msgstr "Tensión Arterial"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,patient_educational_level:0
+msgid "Educational Level"
+msgstr "Escolaridad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_mother:0
+msgid "Healthy Mother"
+msgstr "Mamá sana"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_mother:0
+msgid "Dead Mother"
+msgstr "Finada"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_mother_disease:0
+msgid "Mother Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_father:0
+msgid "Healthy Father"
+msgstr "Papá sano"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_father_disease:0
+msgid "Father Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_father:0
+msgid "Dead Father"
+msgstr "Finado"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_sibling_age:0
+msgid "Sibling age"
+msgstr "Hermano/a Edad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_sibling:0
+msgid "Healthy Sibling"
+msgstr "Sano/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_sibling:0
+msgid "Dead Sibling"
+msgstr "Finado/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_sibling_disease:0
+msgid "Sibling Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_sibling2_age:0
+msgid "Sibling age"
+msgstr "Hermano/a Edad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_sibling2:0
+msgid "Healthy Sibling"
+msgstr "Sano/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_sibling2:0
+msgid "Dead Sibling"
+msgstr "Finado/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_sibling2_disease:0
+msgid "Sibling Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_sibling3_age:0
+msgid "Sibling age"
+msgstr "Hermano/a Edad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_sibling3:0
+msgid "Healthy Sibling"
+msgstr "Sano/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_sibling3:0
+msgid "Dead Sibling"
+msgstr "Finado/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_sibling3_disease:0
+msgid "Sibling Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Grandpa and Grandma"
+msgstr "Abuelo y Abuela"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_maternalgrandma:0
+msgid "Healthy Maternal Grandma"
+msgstr "Abuela Materna sana"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_maternalgrandma:0
+msgid "Dead Maternal Grandma"
+msgstr "Finada"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_maternalgrandma_disease:0
+msgid "Maternal Grandma Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_maternalgrandpa:0
+msgid "Healthy Maternal Grandpa"
+msgstr "Abuelo Materno sano"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_maternalgrandpa:0
+msgid "Dead Maternal Grandpa"
+msgstr "Finado"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_maternalgrandpa_disease:0
+msgid "Maternal Grandpa Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_paternalgrandma:0
+msgid "Healthy Paternal Grandma"
+msgstr "Abuela Paterna sana"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_paternalgrandma:0
+msgid "Dead Paternal Grandma"
+msgstr "Finada"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_paternalgrandma_disease:0
+msgid "Paternal Grandma Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_paternalgrandpa:0
+msgid "Healthy Paternal Grandpa"
+msgstr "Abuelo Paterno sano"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_paternalgrandpa:0
+msgid "Dead Paternal Grandpa"
+msgstr "Finado"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_paternalgrandpa_disease:0
+msgid "Paternal Grandpa Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_healthy_other:0
+msgid "Healthy Other"
+msgstr "Otro sano"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_dead_other:0
+msgid "Dead Other"
+msgstr "Finado/a"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_other_disease:0
+msgid "Other Disease"
+msgstr "Enfermedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_smoke:0
+msgid "Someone smoke at home?"
+msgstr "Alguien fuma en casa?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antfam_smoke_who:0
+msgid "Who"
+msgstr "¿Quién?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_auditive_sieve:0
+msgid "Auditive Sieve"
+msgstr "Tamiz auditivo"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_metabolic_sieve:0
+msgid "Metabolic Sieve"
+msgstr "Tamiz metabólico"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_metabolic_sieve_ratings:0
+msgid "Metabolic Sieve Rating"
+msgstr "¿Qué calificación le dieron?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_complications:0
+msgid "Any complications?"
+msgstr "¿Tuvo alguna complicación?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_complications_which:0
+msgid "Which?"
+msgstr "¿Cuál?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_drank_mothers_breast:0
+msgid "Drank mother's breast?"
+msgstr "¿Tomó seno materno?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_drank_mothers_breast_long:0
+msgid "How long?"
+msgstr "¿Cuánto tiempo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_take_formula:0
+msgid "Did take formula??"
+msgstr "¿Tomó fórmula?"	
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_take_formula_which:0
+msgid "Which?"
+msgstr "¿Cuál?"	
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_pregnancy_number:0
+msgid "Pregnancy Number"
+msgstr "Número de embarazo"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_multiple_pregnancy:0
+msgid "Multiple Pregnancy (Twins or triplets)?"
+msgstr "Embarazo múltiple (gemelos o triates)"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_used_medications:0
+msgid "Did you use medications?"
+msgstr "¿Tomó medicamentos?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_which_medications:0
+msgid "Wich medications?"
+msgstr "¿Cuáles?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_normal_birth:0
+msgid "It was a normal birth?"
+msgstr "¿Fue parto normal?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_normal_birth_why:0
+msgid "Why?"
+msgstr "¿Por qué?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_birth_weight:0
+msgid "Birth Weight?"
+msgstr "¿Cuánto Pesó?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_birth_size:0
+msgid "Birth Size?"
+msgstr "¿Cuánto midió?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_weeks_pregnancy:0
+msgid "Weeks of Pregnancy"
+msgstr "¿Cuántas semanas tuvo de embarazo?"
+
+#. module: doctor_pediatrics	
+#: field:doctor.attentions.pediatrics,antperin_used_drugs_smoke:0
+msgid "Did you use Drugs or Smoke?"
+msgstr "¿Fumó algo o tomó alguna droga?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_which_vitamins:0
+msgid "Which vitamins?"
+msgstr "¿Cuáles?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_used_vitamins:0
+msgid "Did you use vitamins?"
+msgstr "¿Tomó vitaminas?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antperin_used_vitamins:0
+msgid "Did you use vitamins?"
+msgstr "¿Tomó vitaminas?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_tuberculosis:0
+msgid "Tuberculosis"
+msgstr "Tuberculosis"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_polio:0
+msgid "Polio"
+msgstr "Polio"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_polio_quantity:0
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_pentavalent:0
+msgid "Pentavalent (DPT,Hb,Hib)"
+msgstr "Pentavalente (DPT, Hb, Hib)"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_pentavalent_quantity:0
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_triple_viral:0
+msgid "Triple Viral (Measles,Rubella,Mumps)"
+msgstr "Triple Viral (sarampión, rubeola, paperas)"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_triple_viral_quantity:0
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_varicella:0
+msgid "Varicella"
+msgstr "Varicela"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_varicella_date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_pneumococcus:0
+msgid "Pneumococcus"
+msgstr "Neumococo"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_pneumococcus_date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_hepatitis_a:0
+msgid "Hepatitis A"
+msgstr "Hepatitis A"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_hepatitis_date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_influenza:0
+msgid "Influenza"
+msgstr "Influenza"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_influenza_date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_rotavirus:0
+msgid "Rotavirus"
+msgstr "Rotavirus"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_rotavirus_date:0
+msgid "Date"
+msgstr "Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_other:0
+msgid "Other"
+msgstr "Otro"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antimm_other_which:0
+msgid "Specify"
+msgstr "Especifique"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsicho_held_head:0
+msgid "Did he/she hold the head?"
+msgstr "Sostuvo la cabeza"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_smile:0
+msgid "Did he/she smile?"
+msgstr "Sonrió"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_babbling:0
+msgid "Did he/she babble?
+msgstr "Balbuceó"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_sit:0
+msgid "Did he/she sit?
+msgstr "Sentó"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_crawl:0
+msgid "Did he/she crawl?
+msgstr "Gateó"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_supported_walk:0
+msgid "Did he/she walk with help?
+msgstr "Caminó con ayuda"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_walk:0
+msgid "Did he/she walk without help?
+msgstr "Caminó solo(a)"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antpsycho_school:0
+msgid "How is he/she going in the school?"
+msgstr "¿Cómo va en la escuela?"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Respond to what age he or she managed to do it"
+msgstr "Por favor responda a qué edad logró realizarlo"
+
+#. module: doctor_pediatrics
+#: view:doctor.attentions.pediatrics:0
+msgid "Specify the number of doses that have been applied"
+msgstr "Especifique el número de dosis que han sido aplicadas"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_reflux:0
+msgid "Reflux"
+msgstr "Reflujo"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_reflux_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_thyroid:0
+msgid "Thyroid Alteration"
+msgstr "Problemas en Tiroides"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_thyroid_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_constipation:0
+msgid "Constipation"
+msgstr "Estreñimiento"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_constipation_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_diarrhea:0
+msgid "Diarrhea"
+msgstr "Diarrea"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_diarrhea_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_pneumonia:0
+msgid "Pneumonia"
+msgstr "Neumonía"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_pneumonia_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_bronchiolitis:0
+msgid "Bronchiolitis"
+msgstr "Broquiolitis"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_bronchiolitis_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_croup:0
+msgid "Croup"
+msgstr "Crup"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_croup_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_urinary_infection:0
+msgid "Urinary Tract Infection"
+msgstr "Infección vías urinarias"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_urinary_infection_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_varicella:0
+msgid "Varicella"
+msgstr "Varicela"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_varicella_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_scarlet_fever:0
+msgid "Scarlet Fever"
+msgstr "Escarlatina"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_scarlet_fever_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_allergy:0
+msgid "Allergy"
+msgstr "Alergia"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_allergy_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_headache:0
+msgid "Hedache"
+msgstr "Dolor de cabeza"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_headache_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_fractures:0
+msgid "Fractures"
+msgstr "Fracturas"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_fractures_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_seizures:0
+msgid "Seizures / Epilepsy"
+msgstr "Convulsiones / Epilepsia"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_seizures_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_accidents:0
+msgid "Accidents"
+msgstr "Accidentes"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_accidents_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_anxiety:0
+msgid "Nervousness / Anxiety"
+msgstr "Nerviosismo / Ansiedad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_anxiety_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_cancer_tumors:0
+msgid "Cancer / Tumors"
+msgstr "Cancer o Tumores"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_cancer_tumors_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_transfusions:0
+msgid "Transfusions"
+msgstr "Transfusiones"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_transfusions_treatment:0
+msgid "Treatment / Date"
+msgstr "Tratamiento / Fecha"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_hospitalizations:0
+msgid "Previous Hospitalizations"
+msgstr "Hospitalizaciones previas"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_surgeries:0
+msgid "Surgeries"
+msgstr "Cirugías"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antsurgical_others:0
+msgid "Others"
+msgstr "Otros"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_conduct_home:0
+msgid "Conduct at Home"
+msgstr "Su conducta en casa es"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_conduct_home:0
+msgid "Good"
+msgstr "Bien"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_conduct_home:0
+msgid "Regular"
+msgstr "Regular"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_conduct_home:0
+msgid "Bad"
+msgstr "Mal"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_conduct_home_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_conduct_school:0
+msgid "Conduct at School"
+msgstr "Su conducta en escuela es"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_conduct_school:0
+msgid "Good"
+msgstr "Bien"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_conduct_school:0
+msgid "Regular"
+msgstr "Regular"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_conduct_school:0
+msgid "Bad"
+msgstr "Mal"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_conduct_school_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_school_exploitation:0
+msgid "School Exploitation"
+msgstr "Su aprovechamiento es"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_school_exploitation:0
+msgid "Good"
+msgstr "Bien"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_school_exploitation:0
+msgid "Regular"
+msgstr "Regular"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_school_exploitation:0
+msgid "Bad"
+msgstr "Mal"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_school_exploitation_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_sight:0
+msgid "How does he/she see?"
+msgstr "¿Cómo ve?"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_sight:0
+msgid "Good"
+msgstr "Bien"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_sight:0
+msgid "Regular"
+msgstr "Regular"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_sight:0
+msgid "Bad"
+msgstr "Mal"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_sight_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_audition:0
+msgid "How does he/she hear?"
+msgstr "¿Cómo oye?"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_audition:0
+msgid "Good"
+msgstr "Bien"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_audition:0
+msgid "Regular"
+msgstr "Regular"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,antneuro_audition:0
+msgid "Bad"
+msgstr "Mal"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_audition_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_loses_balance:0
+msgid "Loses the balance easily"
+msgstr "Pierde el equilibrio con facilidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_loses_balance_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_difficulty_speaking:0
+msgid "Difficulty Speaking"
+msgstr "Dificultad para hablar"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_difficulty_speaking_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_difficulty_sleep:0
+msgid "Difficulty getting to sleep"
+msgstr "Dificultad para conciliar el sueño"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_difficulty_sleep_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_wakeup_night:0
+msgid "Does he/she wake up during the night"
+msgstr "Despierta durante la noche"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_wakeup_night_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_has_fainted:0
+msgid "Has he/she ever fainted"
+msgstr "Se ha desmayado alguna vez"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antneuro_has_fainted_when:0
+msgid "Since When?"
+msgstr "¿Desde Cuándo?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_weight:0
+msgid "Weight"
+msgstr "Peso"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_size:0
+msgid "Size"
+msgstr "Estatura"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_percentile:0
+msgid "Percentile"
+msgstr "Percentil"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_bmi:0
+msgid "Body mass index"
+msgstr "Índice de Masa Corporal"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_solid_food:0
+msgid "Start solid food (age)"
+msgstr "Inicio de comida sólida (edad)"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_food_type:0
+msgid "Type of family meal (vegetarian, mixed, kosher)"
+msgstr "Tipo de comida familiar (vegetariana, mixta, kosher)"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_food_quality:0
+msgid "Food quality"
+msgstr "Alimentación calidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_food_quantity:0
+msgid "Food quantity"
+msgstr "Alimentación cantidad"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_special_diet:0
+msgid "Special Diet"
+msgstr "Dieta especial"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,antnutri_special_diet_which:0
+msgid "Which?"
+msgstr "¿Cuál?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,functional_special_support:0
+msgid "Does your kid need special treatment?"
+msgstr "Tiene su niño(a) una capacidad diferente que requiera apoyo especial?"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,functional_what_support:0
+msgid "Auditive"
+msgstr "Auditivo"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,functional_what_support:0
+msgid "Motor"
+msgstr "Motor"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,functional_what_support:0
+msgid "Visual"
+msgstr "Visual"
+
+#. module: doctor_pediatrics
+#: selection:doctor.attentions.pediatrics,functional_what_support:0
+msgid "Language"
+msgstr "Idioma"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,functional_what_support:0
+msgid "What kind of support does he/she need?"
+msgstr "¿Qué tipo de apoyo requiere?"
+
+#. module: doctor_pediatrics
+#: field:doctor.attentions.pediatrics,functional_other_support:0
+msgid "Others"
+msgstr "Otros"
+
+
+

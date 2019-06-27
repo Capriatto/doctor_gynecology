@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<openerp>
+	<data noupdate="1">
+
+		<!-- Sequence type for attention -->
+		<record model="ir.sequence.type" id="seq_type_attention_gyneco">
+			<field name="name">Gyneco Sequence</field>
+			<field name="code">gyneco.sequence</field>
+		</record>
+
+		<!--Sequence for attention -->
+		<record model="ir.sequence" id="seq_attention_gyneco">
+			<field name="name">Gyneco Sequence</field>
+			<field name="code">gyneco.sequence</field>
+			<field name="padding" eval="4"/>
+			<field name="prefix">GI-%(month)s%(y)s-</field>
+		</record>
+
+	</data>
+</openerp>

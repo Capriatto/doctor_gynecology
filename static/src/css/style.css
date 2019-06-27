@@ -1,0 +1,39 @@
+.imagen_datos_basicos{
+	min-width: 180px;
+	max-width: 180px;
+}
+td label{
+	/*text-align: right;*/
+}
+select{
+	/*width : 145px !important;*/
+}
+td label{
+	/*text-align: right;*/
+}
+.texto_legend{
+	font-weight: bold;
+	font-size: 16px;
+	color: #7c7bad;
+}
+.fieldset_margen{
+	margin-top:30px;
+}
+.openerp .oe_notebook > li.ui-state-active > a, .openerp .oe_notebook > li.ui-state-active > a:hover{
+	border: 1px solid #dddddd;
+	border-bottom-color: transparent;
+	cursor: default;
+	background: #7c7bad;
+	color:#fff;
+}
+
+.menu_footer{
+	position: fixed;
+	top: 93%;
+	background: #7c7bad;
+	left: 70%;
+	padding: 6px;
+}
+.negrita{
+	font-weight: bold
+}
