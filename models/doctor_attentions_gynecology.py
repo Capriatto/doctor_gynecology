@@ -117,7 +117,7 @@ class doctor_attentions_gynecology(osv.Model):
         'fur' : fields.char('FUR'),
         'FPR' : fields.char('FPR'),
         'ritmo' : fields.char('Ritmo'),
-        'regular' : fields.boolean('Ritmo'),
+        'regular' : fields.boolean('Regular'),
         'dismenorrea' : fields.char('Dismenorrea'),
         'metrorragias' : fields.char('Metrorragias'),
         'dispareunia' : fields.char('Dispareunia'),
