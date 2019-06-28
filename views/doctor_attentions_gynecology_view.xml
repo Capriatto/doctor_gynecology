@@ -33,7 +33,7 @@
                         </group>
                     </fieldset>
 
-                    <fieldset class="">
+                    <fieldset class="fieldset_margen">
                         <legend class="texto_legend">Profesional que Atiende</legend>
                         <group col='2'>
                         <field name='professional_photo' nolabel='1' widget="image" img_height="50" width="50" height="50"/>
@@ -72,9 +72,10 @@
                                 </fieldset>
 
                             </page>
+                            
                         </notebook>
-                </group>
-                    <fieldset class="fieldset_margen">
+
+                        <fieldset class="fieldset_margen">
                     <group col="6">
                         <field name='menarca'/>
                         <field name='fur'/>
@@ -113,9 +114,10 @@
                         <field name='lactancia_tiempo'/>
                        
                     </group>
-                    </fieldset>
-                    <fieldset class="fieldset_margen">
-                    <group col="4">
+                    </fieldset>  
+                </group>
+                <fieldset class="fieldset_margen">
+                    <group>
                         <field name='flujos_vaginales'/>
                         <field name='flujos_vaginales_color'/>
                         <field name='flujos_vaginales_olor'/>
@@ -154,6 +156,22 @@
         <field name="view_mode">tree,form</field>
         <field name="context">{}</field>
     </record>
+
+<!--    &lt;!&ndash; Integración&ndash;&gt;-->
+<!--    <record model="ir.actions.act_window.view" id="doctor_attention_general_tree">-->
+<!--    <field eval="1" name="sequence"/>-->
+<!--    <field name="view_mode">tree</field>-->
+<!--    <field name="view_id" ref="view_doctor_attentions_tree"/>-->
+<!--    <field name="act_window_id" ref="action_doctor_attentions"/>-->
+<!--    </record>-->
+
+<!--     &lt;!&ndash; Integración&ndash;&gt;-->
+<!--    <record model="ir.actions.act_window.view" id="doctor_attention_general_form">-->
+<!--    <field eval="2" name="sequence"/>-->
+<!--    <field name="view_mode">form</field>-->
+<!--    <field name="view_id" ref="view_doctor_attentions_form"/>-->
+<!--    <field name="act_window_id" ref="action_doctor_attentions"/>-->
+<!--    </record>-->
 
     <!-- attentions Menu -->
     <menuitem name="HC Ginecología" id="doctor_attentions_gyneco_menuitem" action="action_doctor_attentions_gynecology" parent="doctor.menu_doctor_process" sequence="41" groups="doctor_gynecology.group_doctor_gynecology,doctor_gynecology.group_doctor_gynecology_conf"/>
