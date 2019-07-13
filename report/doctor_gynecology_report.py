@@ -53,8 +53,6 @@ class doctor_gynecology_report(report_sxw.rml_parse):
 
 	
 	def regular(self, regular):
-		_logger.info("==========>")
-		_logger.info(regular)
 		if regular:
 			return 'Si'
 		else:
