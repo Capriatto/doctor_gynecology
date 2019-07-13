@@ -53,10 +53,12 @@ class doctor_gynecology_report(report_sxw.rml_parse):
 
 	
 	def regular(self, regular):
+		_logger.info("==========>")
+		_logger.info(regular)
 		if regular:
 			return 'Si'
 		else:
-			return 'No'
+			return ' '
 
 
 report_sxw.report_sxw('report.doctor.gynecology.report','doctor.attentions.gynecology','addons/doctor_gynecology/report/doctor_gynecology_report.rml', parser=doctor_gynecology_report)
