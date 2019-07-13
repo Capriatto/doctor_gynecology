@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<openerp>
+    <data>
+        <report id="doctor_gynecology_report_id" model="doctor.attentions.gynecology" name="doctor.gynecology.report" rml="doctor_gynecology/report/doctor_gynecology_report.rml" string="HC Ginecología" auto="True" header="False"/>
+    </data>
+</openerp>

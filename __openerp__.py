@@ -31,6 +31,7 @@
     """,
     'website': '',
     'data': [
+        'data/report_doctor_gynecology.xml',
         'views/doctor_sequence.xml',
         'data/appointment_type.sql',
         'security/doctor_security.xml',

@@ -79,7 +79,7 @@
                     <group col="6">
                         <field name='menarca'/>
                         <field name='fur'/>
-                        <field name='FPR'/>
+                        <field name='fpr'/>
                         <field name='ritmo'/>
                         <field name='regular'/>
                         <field name='dismenorrea'/>
