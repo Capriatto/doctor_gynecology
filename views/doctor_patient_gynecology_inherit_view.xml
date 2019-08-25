@@ -10,7 +10,7 @@
       <field name="arch" type="xml">
 
         <xpath expr="/form[@string='Patient']/sheet//div[1]" position="inside">
-          <button class="oe_highlight" help="Atender Paciente" string="Atender HC Ginecología" name="atender_paciente_gynecology" type="object" groups="" icon="terp-personal"/>
+          <button class="oe_highlight" help="Atender Paciente" string="Atender HC Ginecología" name="atender_paciente_gynecology" type="object" groups="doctor_gynecology.group_doctor_gynecology_conf,doctor_gynecology.group_doctor_gynecology" icon="terp-personal"/>
         </xpath>
 
       </field>
