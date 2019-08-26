@@ -32,7 +32,11 @@ class doctor_gynecology_report(report_sxw.rml_parse):
 		self.localcontext.update({
 			'time': time,
 			'select_escolaridad': self.select_escolaridad,
-			'regular': self.regular
+			'regular': self.regular,
+			'check_fur': self.check_fur,
+			'check_fup': self.check_fup,
+			'check_fecha_legrado': self.check_fecha_legrado,
+			'check_fecha_cesarea': self.check_fecha_cesarea
 		})
 		
 	def select_escolaridad(self, patient_educational_level):
@@ -56,7 +60,31 @@ class doctor_gynecology_report(report_sxw.rml_parse):
 		if regular:
 			return 'Si'
 		else:
-			return ' '
+			return ''
+
+	def check_fur(self, fur):
+		if fur == 'False':
+			return ''
+		else:
+			return fur
+
+	def check_fup(self, fup):
+		if fup == 'False':
+			return ''
+		else:
+			return fup
+
+	def check_fecha_legrado(self, legrados_fecha):
+		if legrados_fecha == 'False':
+			return ''
+		else:
+			return legrados_fecha
+
+	def check_fecha_cesarea(self, cesareas_fecha):
+		if cesareas_fecha == 'False':
+			return ''
+		else:
+			return cesareas_fecha
 
 
 report_sxw.report_sxw('report.doctor.gynecology.report','doctor.attentions.gynecology','addons/doctor_gynecology/report/doctor_gynecology_report.rml', parser=doctor_gynecology_report)

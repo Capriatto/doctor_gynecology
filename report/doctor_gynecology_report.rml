@@ -285,6 +285,11 @@
       <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,39" stop="1,-1"/>
       <lineStyle kind="LINEAFTER" colorName="#000000" start="1,39" stop="1,-1"/>
       <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="0,40" stop="0,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="0,-1" stop="0,-1"/>
+      <lineStyle kind="LINEBEFORE" colorName="#000000" start="1,40" stop="1,-1"/>
+      <lineStyle kind="LINEAFTER" colorName="#000000" start="1,40" stop="1,-1"/>
+      <lineStyle kind="LINEBELOW" colorName="#000000" start="1,-1" stop="1,-1"/>
     </blockTableStyle>
     <initialize>
       <paraStyle name="all" alignment="justify"/>
@@ -297,10 +302,12 @@
     <paraStyle name="P6" fontName="Helvetica" fontSize="12.0" leading="15" alignment="LEFT"/>
     <paraStyle name="P7" fontName="Helvetica" fontSize="12.0" leading="15" alignment="LEFT"/>
     <paraStyle name="P8" fontName="Helvetica" alignment="JUSTIFY"/>
-    <paraStyle name="P9" fontName="Helvetica" fontSize="12.0" leading="15"/>
-    <paraStyle name="P10" fontName="Helvetica" alignment="RIGHT"/>
-    <paraStyle name="P11" fontName="Helvetica" fontSize="12.0" leading="15" alignment="LEFT"/>
-    <paraStyle name="P12" fontName="Helvetica-Bold" fontSize="12.0" leading="15" alignment="CENTER" spaceBefore="12.0" spaceAfter="6.0"/>
+    <paraStyle name="P9" fontName="Helvetica" alignment="RIGHT"/>
+    <paraStyle name="P10" fontName="Helvetica" fontSize="12.0" leading="15"/>
+    <paraStyle name="P11" fontName="Helvetica-Bold" fontSize="12.0" leading="15" alignment="CENTER" spaceBefore="6.0" spaceAfter="6.0"/>
+    <paraStyle name="P12" fontName="Helvetica" fontSize="12.0" leading="15" alignment="LEFT"/>
+    <paraStyle name="P13" fontName="Helvetica" alignment="LEFT"/>
+    <paraStyle name="P14" fontName="Helvetica-Bold" fontSize="12.0" leading="15" alignment="CENTER" spaceBefore="12.0" spaceAfter="6.0"/>
     <paraStyle name="Standard" fontName="Helvetica"/>
     <paraStyle name="Heading" fontName="Helvetica" fontSize="14.0" leading="17" spaceBefore="12.0" spaceAfter="6.0"/>
     <paraStyle name="Text_20_body" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
@@ -319,17 +326,18 @@
     <paraStyle name="Drawing" fontName="Helvetica" fontSize="12.0" leading="15" spaceBefore="6.0" spaceAfter="6.0"/>
     <paraStyle name="Frame_20_contents" fontName="Helvetica" spaceBefore="0.0" spaceAfter="6.0"/>
     <paraStyle name="Addressee" fontName="Helvetica" spaceBefore="0.0" spaceAfter="3.0"/>
+    <paraStyle name="Preformatted_20_Text" fontName="Courier" fontSize="10.0" leading="13" spaceBefore="0.0" spaceAfter="0.0"/>
     <images/>
   </stylesheet>
   <story>
-    <para style="P9">[[repeatIn(objects,'o')]] </para>
+    <para style="P10">[[repeatIn(objects,'o')]] </para>
     <blockTable colWidths="247.0,250.0" style="Tabla4">
       <tr>
         <td>
           <para style="P8">Fecha Atención: [[ o.date_attention or removeParentNode('para') ]] </para>
         </td>
         <td>
-          <para style="P10">Atención N°: [[ o.number or removeParentNode('para') ]]</para>
+          <para style="P9">Atención N°: [[ o.number or removeParentNode('para') ]]</para>
         </td>
       </tr>
       <tr>
@@ -349,7 +357,7 @@
     <blockTable colWidths="499.0" style="Tabla1">
       <tr>
         <td>
-          <para style="P12">HISTORIA CLÍNICA GINECOLOGÍA</para>
+          <para style="P14">HISTORIA CLÍNICA GINECOLOGÍA</para>
         </td>
       </tr>
     </blockTable>
@@ -423,13 +431,25 @@
       </tr>
     </blockTable>
     <para style="P3">DATOS GINECOLÓGICOS</para>
-    <blockTable colWidths="155.0,343.0" style="Tabla7">
+    <blockTable colWidths="152.0,347.0" style="Tabla7">
+      <tr>
+        <td>
+          <para style="P7">
+            <font color="white"> </font>
+          </para>
+        </td>
+        <td>
+          <para style="Standard">
+            <font color="white"> </font>
+          </para>
+        </td>
+      </tr>
       <tr>
         <td>
           <para style="P7">Menarca</para>
         </td>
         <td>
-          <para style="P7">[[ o.menarca or ' ' ]]</para>
+          <para style="Standard">[[ o.menarca or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -437,7 +457,7 @@
           <para style="P7">FUR</para>
         </td>
         <td>
-          <para style="P7">[[ o.fur or ' ' ]]</para>
+          <para style="P7">[[ check_fur(o.fur) or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -445,7 +465,7 @@
           <para style="P7">FPR</para>
         </td>
         <td>
-          <para style="P7">[[ o.fpr or ' ' ]]</para>
+          <para style="P7">[[ o.fpr or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -453,7 +473,7 @@
           <para style="P7">Ritmo</para>
         </td>
         <td>
-          <para style="P7">[[ o.ritmo or ' ' ]]</para>
+          <para style="P7">[[ o.ritmo or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -461,7 +481,9 @@
           <para style="P7">¿Ritmo Regular?</para>
         </td>
         <td>
-          <para style="P7">[[ regular(o.regular) ]]</para>
+          <para style="P13">
+            <font face="Helvetica" size="12.0">[[ regular(o.regular) or removeParentNode('tr') ]]</font>
+          </para>
         </td>
       </tr>
       <tr>
@@ -469,7 +491,7 @@
           <para style="P7">Dismenorrea</para>
         </td>
         <td>
-          <para style="P7">[[ o.dismenorrea or ' ' ]]</para>
+          <para style="P7">[[ o.dismenorrea or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -477,7 +499,7 @@
           <para style="P7">Metrorragias</para>
         </td>
         <td>
-          <para style="P7">[[ o.metrorragias or ' ' ]]</para>
+          <para style="P7">[[ o.metrorragias or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -485,7 +507,7 @@
           <para style="P7">Dispareunia</para>
         </td>
         <td>
-          <para style="P7">[[ o.dispareunia or ' ' ]]</para>
+          <para style="P7">[[ o.dispareunia or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -493,7 +515,7 @@
           <para style="P7">Sangrado Post-Coito</para>
         </td>
         <td>
-          <para style="P7">[[ o.sangrado_post_coito or ' ' ]]</para>
+          <para style="P7">[[ o.sangrado_post_coito or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -501,7 +523,7 @@
           <para style="P7">Frigidez</para>
         </td>
         <td>
-          <para style="P7">[[ o.frigidez or ' ' ]]</para>
+          <para style="P7">[[ o.frigidez or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -509,7 +531,7 @@
           <para style="P7">G</para>
         </td>
         <td>
-          <para style="P7">[[ o.g or ' ' ]]</para>
+          <para style="P7">[[ o.g or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -517,7 +539,7 @@
           <para style="P7">P</para>
         </td>
         <td>
-          <para style="P7">[[ o.p or ' ' ]]</para>
+          <para style="P7">[[ o.p or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -525,7 +547,7 @@
           <para style="P7">A</para>
         </td>
         <td>
-          <para style="P7">[[ o.a or ' ' ]]</para>
+          <para style="P7">[[ o.a or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -533,7 +555,7 @@
           <para style="P7">Legrados</para>
         </td>
         <td>
-          <para style="P7">[[ o.legrados or ' ' ]]</para>
+          <para style="P7">[[ o.legrados or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -541,7 +563,7 @@
           <para style="P7">Fecha(s) Legrados</para>
         </td>
         <td>
-          <para style="P7">[[ o.legrados_fecha or ' ' ]]</para>
+          <para style="P7">[[ check_fecha_legrado(o.legrados_fecha) or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -549,7 +571,7 @@
           <para style="P7">Cesáreas</para>
         </td>
         <td>
-          <para style="P7">[[ o.cesareas or ' ' ]]</para>
+          <para style="P7">[[ o.cesareas or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -557,7 +579,7 @@
           <para style="P7">Fecha(s) Cesáreas </para>
         </td>
         <td>
-          <para style="P7">[[ o.cesareas_fecha or ' ' ]]</para>
+          <para style="P7">[[ check_fecha_cesarea(o.cesareas_fecha) or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -565,7 +587,7 @@
           <para style="P7">FUP</para>
         </td>
         <td>
-          <para style="P7">[[ o.fup or ' ' ]]</para>
+          <para style="P7">[[ check_fup(o.fup) or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -573,7 +595,7 @@
           <para style="P7">Atención Prenatal</para>
         </td>
         <td>
-          <para style="P7">[[ o.atencion_prenatal or ' ' ]]</para>
+          <para style="P7">[[ o.atencion_prenatal or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -581,7 +603,7 @@
           <para style="P7">Atención Prenatal, ¿Dónde?</para>
         </td>
         <td>
-          <para style="P7">[[ o.atencion_prenatal_donde or ' ' ]]</para>
+          <para style="P7">[[ o.atencion_prenatal_donde or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -589,7 +611,7 @@
           <para style="P7">Enf. Embarazo</para>
         </td>
         <td>
-          <para style="P7">[[ o.enfermedad_embarazo or ' ' ]]</para>
+          <para style="P7">[[ o.enfermedad_embarazo or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -597,7 +619,7 @@
           <para style="P7">Duración Embarazo</para>
         </td>
         <td>
-          <para style="P7">[[ o.duracion_embarazo or ' ' ]]</para>
+          <para style="P7">[[ o.duracion_embarazo or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -605,7 +627,7 @@
           <para style="P7">Partos Hospitalarios</para>
         </td>
         <td>
-          <para style="P7">[[ o.partos_hospitalarios or ' ' ]]</para>
+          <para style="P7">[[ o.partos_hospitalarios or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -613,7 +635,7 @@
           <para style="P7">Partos Hospitalarios, ¿Dónde?</para>
         </td>
         <td>
-          <para style="P7">[[ o.partos_hospitalarios_donde or ' ' ]]</para>
+          <para style="P7">[[ o.partos_hospitalarios_donde or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -621,7 +643,7 @@
           <para style="P7">Problemas en Embarazos</para>
         </td>
         <td>
-          <para style="P7">[[ o.problemas_embarazos or ' ' ]]</para>
+          <para style="P7">[[ o.problemas_embarazos or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -629,7 +651,7 @@
           <para style="P7">Hemorragias</para>
         </td>
         <td>
-          <para style="P7">[[ o. hemorragias or ' ' ]]</para>
+          <para style="P7">[[ o. hemorragias or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -637,7 +659,7 @@
           <para style="P7">Infecciones</para>
         </td>
         <td>
-          <para style="P7">[[ o.infecciones or ' ' ]]</para>
+          <para style="P7">[[ o.infecciones or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -645,7 +667,7 @@
           <para style="P7">Rupturas</para>
         </td>
         <td>
-          <para style="P7">[[ o.rupturas or ' ' ]]</para>
+          <para style="P7">[[ o.rupturas or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -653,7 +675,7 @@
           <para style="P7">Distocia</para>
         </td>
         <td>
-          <para style="P7">[[ o.distocia or ' ' ]]</para>
+          <para style="P7">[[ o.distocia or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -661,7 +683,7 @@
           <para style="P7">Problemas del R.N</para>
         </td>
         <td>
-          <para style="P7">[[ o.problemas_rn or ' ' ]]</para>
+          <para style="P7">[[ o.problemas_rn or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -669,7 +691,7 @@
           <para style="P7">Peso Promedio Hijos</para>
         </td>
         <td>
-          <para style="P7">[[ o.peso_promedio_hijos or ' ' ]]</para>
+          <para style="P7">[[ o.peso_promedio_hijos or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -677,7 +699,7 @@
           <para style="P7">Edad Primer Hijo</para>
         </td>
         <td>
-          <para style="P7">[[ o.edad_primer_hijo or ' ' ]]</para>
+          <para style="P7">[[ o.edad_primer_hijo or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -685,7 +707,7 @@
           <para style="P7">Edad Último Hijo</para>
         </td>
         <td>
-          <para style="P7">[[ o.edad_ultimo_hijo or ' ' ]]</para>
+          <para style="P7">[[ o.edad_ultimo_hijo or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -693,7 +715,7 @@
           <para style="P7">Lactancia</para>
         </td>
         <td>
-          <para style="P7">[[ o.lactancia or ' ' ]]</para>
+          <para style="P7">[[ o.lactancia or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -701,7 +723,7 @@
           <para style="P7">Lactancia Tiempo </para>
         </td>
         <td>
-          <para style="P7">[[ o.lactancia_tiempo or ' ' ]]</para>
+          <para style="P7">[[ o.lactancia_tiempo or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -709,7 +731,7 @@
           <para style="P7">Flujos Vaginales</para>
         </td>
         <td>
-          <para style="P7">[[ o.flujos_vaginales or ' ' ]]</para>
+          <para style="P7">[[ o.flujos_vaginales or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -717,7 +739,7 @@
           <para style="P7">Color Flujos Vaginales</para>
         </td>
         <td>
-          <para style="P7">[[ o.flujos_vaginales_color or ' ' ]]</para>
+          <para style="P7">[[ o.flujos_vaginales_color or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -725,7 +747,7 @@
           <para style="P7">Olor Flujos Vaginales</para>
         </td>
         <td>
-          <para style="P7">[[ o.flujos_vaginales_olor or ' ' ]]</para>
+          <para style="P7">[[ o.flujos_vaginales_olor or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -733,7 +755,7 @@
           <para style="P7">Prurito</para>
         </td>
         <td>
-          <para style="P7">[[ o.flujos_vaginales_prurito or ' ' ]]</para>
+          <para style="P7">[[ o.flujos_vaginales_prurito or removeParentNode('tr') ]]</para>
         </td>
       </tr>
       <tr>
@@ -741,7 +763,7 @@
           <para style="P7">Tx</para>
         </td>
         <td>
-          <para style="P7">[[ o.flujos_vaginales_tx or ' ' ]]</para>
+          <para style="P7">[[ o.flujos_vaginales_tx or removeParentNode('tr') ]]</para>
         </td>
       </tr>
     </blockTable>
